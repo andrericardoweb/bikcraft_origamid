@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/portfolio.css">
   <link rel="stylesheet" href="/css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="header">
@@ -35,27 +36,41 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote_clientes">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore itaque quam exercitationem dicta officia voluptatum reprehenderit placeat.</p>
       <cite>Barbara Moss</cite>
     </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore itaque quam exercitationem dicta officia voluptatum reprehenderit placeat.</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore itaque quam exercitationem dicta officia voluptatum reprehenderit placeat.</p>
+      <cite>Bernado</cite>
+    </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-8"><img src="/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
         <li class="grid-16"><img src="/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
       </ul><!--portfolio_lista-->
 
+      <ul class="portfolio_lista">
+        <li class="grid-8"><img src="/img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+        <li class="grid-8"><img src="/img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
+        
+        <li class="grid-16"><img src="/img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+      </ul><!--portfolio_lista-->
+
     </div><!--/container-->
   </section><!--/portfolio-->
   
-
-  
-
   <section class="quebra">
     <blockquote class="quote-externo container">
       <p>"O verdadeiro segredo da felicidade está em ter um genuíno intresse por todos os detalhes da vida cotidiana."</p>
@@ -95,5 +110,7 @@
     </div>
   </footer>
   
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
